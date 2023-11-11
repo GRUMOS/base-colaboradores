@@ -18,7 +18,10 @@ function App() {
       <Alert />
       <Buscador />
       <Formulario />
+      <div>
+      <h1>Listado de colaboradores</h1>
       <Listado colaboradores={colaboradores} />
+      </div>
 </>
   );
 }

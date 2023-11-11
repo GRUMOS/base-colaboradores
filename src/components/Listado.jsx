@@ -1,7 +1,8 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
 
-const Listado = ({}) => {
+
+const Listado = ({colaboradores}) => {
     return (
       <Table striped bordered hover>
         <thead>
